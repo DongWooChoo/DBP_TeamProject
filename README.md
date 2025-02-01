@@ -9,14 +9,19 @@
 - 박민수 : 사원 정보 기능 구현 (등록, 검색, 수정 UI 및 기능)
 - 박지민 : 추가 수당 및 출퇴근 기록 구현 (UI 및 기능)
 
-## 엄무 기능 구현 내용
-- 업무_Form의 상단부분은 대분류, 중분류, 소분류 콤보박스로 구현하며 업무내용, 시작시간, 종료시간 은 텍스트 필드로 구현된다.
-- 저장버튼을 클릭시 해당내용이 업무 테이블에 저장된다.
-- 업무_Form의 중간부분은 업무현황이며 기본적으로 업무 테이블에서 모든 데이터를 가져와 DataGridView에 표시된다.
-- DataGridView에 표시되는 내용은 소분류, 업무 내용, 등록자, 날짜이다.
-- 돋보기버튼을 누르면 업무_검색 Form이 나타난다.
-- 날짜, 등록자, 업무내용에 값을 입력하고 검색하기 버튼을 클릭하면 조건에 해당하는 데이터가 업무_Form의 DataGridView에서 조회할 수 있다.
-- 수정버튼을 눌러 해당 업무를 수정하여 업무테이블에 저장한다.
-- 삭제버튼을 눌러 해당 업무를 업무테이블에서 삭제한다.
-- 업무_Form의 하단부분의 ‘업무마스터추가하기’ 버튼 클릭시 업무마스터_Form이 나타난다.
-- 해당하는 대분류, 중분류, 소분류를 작성한 후 저장버튼을 클릭하면 각각 대분류, 중분류, 소분류 테이블에 저장되고 삭제버튼을 클릭하면 해당 분류가 삭제된다.
+## 서비스
+|사원 검색|사원 등록|
+| :-: | :-: |
+|<img src="https://github.com/DongWooChoo/DBP_TeamProject/blob/master/images/%EC%82%AC%EC%9B%90%20%EA%B2%80%EC%83%89%20%EC%9D%B4%EB%AF%B8%EC%A7%80.PNG" />|<img src="https://github.com/DongWooChoo/DBP_TeamProject/blob/master/images/%EC%82%AC%EC%9B%90%20%EB%93%B1%EB%A1%9D%20%EC%9D%B4%EB%AF%B8%EC%A7%80.PNG" />|
+
+|부서 등록|업무 검색|
+| :-: | :-: |
+|<img src="https://github.com/DongWooChoo/DBP_TeamProject/blob/master/images/%EB%B6%80%EC%84%9C%20%EB%93%B1%EB%A1%9D%20%EC%9D%B4%EB%AF%B8%EC%A7%80.PNG" />|<img src="https://github.com/DongWooChoo/DBP_TeamProject/blob/master/images/%EC%97%84%EB%AC%B4%20%EA%B2%80%EC%83%89%20%EC%9D%B4%EB%AF%B8%EC%A7%80.PNG" />|
+
+|출퇴근 기록|급여 명세서|
+| :-: | :-: |
+|<img src="https://github.com/DongWooChoo/DBP_TeamProject/blob/master/images/%EC%B6%9C%ED%87%B4%EA%B7%BC%20%EA%B8%B0%EB%A1%9D%20%EC%9D%B4%EB%AF%B8%EC%A7%80.PNG" />|<img src="https://github.com/DongWooChoo/DBP_TeamProject/blob/master/images/%EA%B8%89%EC%97%AC%20%EB%AA%85%EC%84%B8%EC%84%9C%20%EC%9D%B4%EB%AF%B8%EC%A7%80.PNG" />|
+
+|결재 조회|쪽지|
+| :-: | :-: |
+|<img src="https://github.com/DongWooChoo/DBP_TeamProject/blob/master/images/%EA%B2%B0%EC%9E%AC%20%EC%A1%B0%ED%9A%8C%20%EC%9D%B4%EB%AF%B8%EC%A7%80.PNG" />|<img src="https://github.com/DongWooChoo/DBP_TeamProject/blob/master/images/%EC%AA%BD%EC%A7%80%20%EC%9D%B4%EB%AF%B8%EC%A7%80.PNG" />|
